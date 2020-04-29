@@ -1,11 +1,5 @@
 
 @media only screen and (max-width: 2600px) {
-    .maps_mw_320 {
-        display: none;
-    }
-    .maps_mw_765 {
-        display: block;
-    }
     .data_item{
         display: block;
     }
@@ -14,12 +8,6 @@
     }
 }
 @media only screen and (max-width: 1024px) {
-    .maps_mw_320 {
-        display: none;
-    }
-    .maps_mw_765 {
-        display: block;
-    }
     .data_item{
         display: block;
     }
@@ -28,12 +16,6 @@
     }
 }
 @media only screen and (max-width: 992px) {
-    .maps_mw_320 {
-        display: none;
-    }
-    .maps_mw_765 {
-        display: block;
-    }
     .data_item{
         display: block;
     }
@@ -94,12 +76,6 @@
     }
     .maps{
         max-width: 320px;
-    }
-    .maps_mw_320 {
-        display: block;
-    }
-    .maps_mw_765 {
-        display: none;
     }
     .data_item{
         display: none;

@@ -707,3 +707,33 @@ footer{
 .email{
     padding: 0 0 0 133px;
 }
+@keyframes logo {
+    0%{
+        position: absolute;
+        top: -300px;
+        left: 0rem;
+    }
+    100%{
+        top: 3.2rem;
+        left: 5rem;
+    }
+}
+.logo{
+    animation: logo 3s;
+    position: absolute;
+    top: 3.2rem;
+    left: 5rem;
+}
+@keyframes open-overlay {
+    0%{
+        position: absolute;
+        top: -300px;
+        right: 0rem;
+    }
+ }
+.open-overlay{
+    animation: open-overlay 3s;
+    position: absolute;
+    top: 3.2rem;
+    right: 5rem;
+}
