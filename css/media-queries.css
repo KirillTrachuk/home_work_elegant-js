@@ -1,0 +1,133 @@
+
+@media only screen and (max-width: 2600px) {
+    .maps_mw_320 {
+        display: none;
+    }
+    .maps_mw_765 {
+        display: block;
+    }
+    .data_item{
+        display: block;
+    }
+    .data_item_320{
+        display: none
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .maps_mw_320 {
+        display: none;
+    }
+    .maps_mw_765 {
+        display: block;
+    }
+    .data_item{
+        display: block;
+    }
+    .data_item_320{
+        display: none
+    }
+}
+@media only screen and (max-width: 992px) {
+    .maps_mw_320 {
+        display: none;
+    }
+    .maps_mw_765 {
+        display: block;
+    }
+    .data_item{
+        display: block;
+    }
+    .data_item_320{
+        display: none
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .my-flex-img{
+        width: 50%;
+    }
+    .maps_mw_320 {
+        display: none;
+    }
+    .maps_mw_765 {
+        display: block;
+    }
+    .data_item{
+        display: block;
+    }
+    .data_item_320{
+        display: none
+    }
+}
+@media only screen and (max-width: 414px) {
+    .open-overlay{
+        top:0.2rem;
+    }
+    .home a{
+        top: 11px;
+        left: 1rem;
+    }
+   .home{
+        background-image: url("../images/bg_mobile_01.jpg");
+    }
+    .home h1{
+        top:30%
+    }
+    .who_we_are{
+        max-width: 320px;
+    }
+    .who_we_are h3{
+        padding-top: 300px;
+    }
+    .my-flex-img{
+        width: 100%;
+    }
+    .amazing_people{
+        max-width: 320px;
+    }
+    .people{
+    width: 320px;
+        margin-bottom: 60px;
+    }
+    .images_left{
+        width: 100%;
+    }
+    .maps{
+        max-width: 320px;
+    }
+    .maps_mw_320 {
+        display: block;
+    }
+    .maps_mw_765 {
+        display: none;
+    }
+    .data_item{
+        display: none;
+    }
+    .data_item_320{
+        display: block;
+    }
+    .footer_mw{
+        max-width: 320px;
+        flex-direction: column;
+    }
+    .footer_item{
+       width: 100%;
+    }
+    .email{
+        padding: 0;
+    }
+    .footer_item p{
+        padding: 5px 0;
+    }
+}
+@media only screen and (max-width: 375px) {
+
+}
+@media only screen and (max-width: 360px) {
+
+}
+@media only screen and (max-width: 320px) {
+
+}
+
