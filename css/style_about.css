@@ -13,7 +13,7 @@ body {
     width: 100%;
     height: 100vh;
     position: relative;
-    background-image: url(../images/bg_elegant.jpg);
+    background-image: url(../images/about_bg_02.jpg);
     background-size: cover;
     background-position: center center;
 }
@@ -672,11 +672,11 @@ h2.amazing_work{
     text-transform: uppercase;
 }
 .data_item p{
-     font-size: 19px;
-     padding-bottom: 40px;
+    font-size: 19px;
+    padding-bottom: 40px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
- }
+}
 .data_item_320 p{
     font-size: 19px;
     padding-bottom: 40px;
@@ -730,7 +730,7 @@ footer{
         top: -300px;
         right: 0rem;
     }
- }
+}
 .open-overlay{
     animation: open-overlay 3s;
     position: absolute;
