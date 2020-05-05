@@ -17,6 +17,14 @@ body {
     background-size: cover;
     background-position: center center;
 }
+.home_about {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url(../images/about_bg_02.jpg);
+    background-size: cover;
+    background-position: center center;
+}
 
 
 /* ====================================
