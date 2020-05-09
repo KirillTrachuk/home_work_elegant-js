@@ -6,7 +6,6 @@
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:400,300,700|Open+Sans:400italic,300italic);
 body {
     background-color: #fff;
-
 }
 
 .home {
@@ -24,6 +23,7 @@ body {
     background-image: url(../images/about_bg_02.jpg);
     background-size: cover;
     background-position: center center;
+    margin-bottom: 167px;
 }
 
 
@@ -417,6 +417,9 @@ Animation keyframes
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 }
+.about_p{
+    padding-bottom: 160px;
+}
 .who_we_are a{
     min-width: 236px;
     padding: 22px 48px;
@@ -437,7 +440,10 @@ Animation keyframes
 h2.amazing_work{
     padding-bottom: 92px;
 }
-.my-flex-gallery {
+.my-flex-gallery_mw{
+    overflow: hidden;
+}
+.my-flex-gallery{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -561,6 +567,9 @@ h2.amazing_work{
     flex-direction: row;
     background-color: #f9f9f9;
     flex-wrap: wrap;
+}
+.about_img_left{
+    width: 50%;
 }
 .change_you_space{
     text-align: left;
@@ -694,6 +703,9 @@ h2.amazing_work{
 footer{
     background-color: #eeeeee;
     margin-top: 80px;
+}
+.footer_about{
+   margin: 0;
 }
 .footer_mw{
     max-width: 769px;
