@@ -1,6 +1,6 @@
 @import "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap";
 @import "https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css";
-@import url(media-queries.css);
+/*@import "media-queries.css";*/
 /* ====================================
       Color
 ==================================== */
@@ -37,12 +37,22 @@ body {
     top: 40%;
     font-family: "Open Sans", sans-serif;
     font-weight: 300; }
+    @media screen and (max-width: 414px) {
+      .home h1 {
+        top: 30%; } }
   .home a {
     text-decoration: none;
     position: absolute;
     z-index: 10;
     top: 3.2rem;
     left: 5rem; }
+    @media screen and (max-width: 414px) {
+      .home a {
+        top: 11px;
+        left: 1rem; } }
+  @media screen and (max-width: 414px) {
+    .home {
+      background-image: url("../images/bg_mobile_01.jpg"); } }
 
 .home_about {
   width: 100%;
@@ -88,7 +98,7 @@ nav ul {
     height: 100%;
     overflow: hidden;
     transform: translateY(-100%); }
-    nav li a {
+    nav ul li a {
       position: relative;
       top: 46%;
       color: #fff;
@@ -100,7 +110,7 @@ nav ul {
       display: block;
       text-align: center;
       font-size: 0.9rem; }
-      nav li a:before {
+      nav ul li a:before {
         content: '';
         width: 70px;
         height: 2px;
@@ -200,6 +210,9 @@ Burger king
     background-color: #5f473b;
     cursor: pointer;
     margin-top: 8px; }
+  @media screen and (max-width: 414px) {
+    .open-overlay {
+      top: 0.2rem; } }
 
 .animate-top-bar {
   animation: animate-top-bar 0.6s linear 1 both; }
@@ -331,6 +344,9 @@ Animation keyframes
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     text-transform: uppercase; }
+    @media screen and (max-width: 414px) {
+      .who_we_are h3 {
+        padding-top: 300px; } }
   .who_we_are h2 {
     padding-bottom: 60px;
     font-size: 44px;
@@ -359,6 +375,9 @@ Animation keyframes
       -ms-transition: background 1s ease-in-out;
       -o-transition: background 1s ease-in-out;
       background-color: #d4af37; }
+  @media screen and (max-width: 414px) {
+    .who_we_are {
+      max-width: 320px; } }
 
 .about_p {
   padding-bottom: 160px; }
@@ -391,6 +410,12 @@ Animation keyframes
     .my-flex-gallery .my-flex-img img {
       height: 100%;
       width: 100%; }
+    @media screen and (max-width: 767px) {
+      .my-flex-gallery .my-flex-img {
+        width: 50%; } }
+    @media screen and (max-width: 414px) {
+      .my-flex-gallery .my-flex-img {
+        width: 100%; } }
 
 .amazing_people {
   max-width: 769px;
@@ -424,6 +449,9 @@ Animation keyframes
     padding-bottom: 50px;
     font-family: "Open Sans", sans-serif;
     font-weight: 300; }
+  @media screen and (max-width: 414px) {
+    .amazing_people {
+      max-width: 320px; } }
 
 .team {
   display: flex;
@@ -443,6 +471,10 @@ Animation keyframes
       line-height: 22px; }
     .team .people img {
       width: 100%; }
+    @media screen and (max-width: 414px) {
+      .team .people {
+        width: 320px;
+        margin-bottom: 60px; } }
   .team .people_item {
     text-align: left;
     max-width: 210px;
@@ -507,6 +539,9 @@ Animation keyframes
   .last_post_item .images_left img {
     width: 100%;
     height: 100%; }
+  @media screen and (max-width: 414px) {
+    .last_post_item .images_left {
+      width: 100%; } }
 
 .about_img_left {
   width: 50%; }
@@ -547,6 +582,9 @@ Animation keyframes
     padding-bottom: 56px;
     font-family: "Open Sans", sans-serif;
     font-weight: 600; }
+  @media screen and (max-width: 414px) {
+    .maps {
+      max-width: 320px; } }
 
 .data {
   max-width: 769px;
@@ -558,6 +596,12 @@ Animation keyframes
   .data .data_item {
     text-align: center;
     width: 50%; }
+    @media screen and (max-width: 2600px) {
+      .data .data_item {
+        display: block; } }
+    @media screen and (max-width: 414px) {
+      .data .data_item {
+        display: none; } }
     .data .data_item span {
       display: inline-block;
       padding-top: 52px;
@@ -583,6 +627,12 @@ Animation keyframes
       font-family: "Open Sans", sans-serif;
       font-weight: 600;
       text-transform: uppercase; }
+      @media screen and (max-width: 2600px) {
+        .data .data_item_320 span {
+          display: none; } }
+      @media screen and (max-width: 414px) {
+        .data .data_item_320 span {
+          display: block; } }
     .data .data_item_320 p {
       font-size: 19px;
       padding-bottom: 40px;
@@ -597,6 +647,10 @@ footer {
     margin: auto;
     display: flex;
     flex-direction: row; }
+    @media screen and (max-width: 414px) {
+      footer .footer_mw {
+        max-width: 320px;
+        flex-direction: column; } }
   footer .footer_item {
     width: 50%; }
     footer .footer_item p {
@@ -606,8 +660,17 @@ footer {
       margin: 0 10px;
       font-family: "Open Sans", sans-serif;
       font-weight: 300; }
+      @media screen and (max-width: 414px) {
+        footer .footer_item p {
+          padding: 5px 0; } }
+    @media screen and (max-width: 414px) {
+      footer .footer_item {
+        width: 100%; } }
   footer .email {
     padding: 0 0 0 133px; }
+    @media screen and (max-width: 414px) {
+      footer .email {
+        padding: 0; } }
 
 .footer_about {
   margin: 0; }

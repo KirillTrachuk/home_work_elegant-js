@@ -33,14 +33,6 @@
         width: 50%;
     }
 
-    .maps_mw_320 {
-        display: none;
-    }
-
-    .maps_mw_765 {
-        display: block;
-    }
-
     .data_item {
         display: block;
     }
